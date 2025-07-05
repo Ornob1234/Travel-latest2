@@ -2,9 +2,9 @@
   "name": "travel-backend",
   "version": "1.0.0",
   "description": "Backend for Travel Website",
-  "main": "main.js",
+  "main": "server.js",
   "scripts": {
-    "start": "electron ."
+    "start": "node server"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
