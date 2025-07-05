@@ -45,7 +45,7 @@ app.use(express.static(frontendPath));
 
 // Optional fallback for unmatched frontend routes
 app.get('*', (req, res) => {
-  res.sendFile(path.join(frontendPath, 'profile.html')); // Or 'index.html' if preferred
+  res.sendFile(path.join(frontendPath, 'index.html')); // Or 'index.html' if preferred
 });
 
 // Start the server
